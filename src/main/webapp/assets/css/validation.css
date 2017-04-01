@@ -1,0 +1,36 @@
+.username.ng-valid {
+	border: 1px solid rgb(34, 177, 76);
+  	outline: none;
+  	opacity: 1;
+}
+
+.username.ng-dirty.ng-invalid-required {
+	border: 1px solid rgb(237, 28, 36);
+  	outline: none;
+  	opacity: 1;
+}
+
+.username.ng-dirty.ng-invalid-minlength {
+	border: 1px solid rgb(255, 201, 14);
+  	outline: none;
+  	opacity: 1;
+}
+
+.email.ng-valid {
+	border: 1px solid rgb(34, 177, 76);
+  	outline: none;
+  	opacity: 1;
+}
+
+.email.ng-dirty.ng-invalid-required {
+	border: 1px solid rgb(237, 28, 36);
+  	outline: none;
+  	opacity: 1;
+}
+
+.email.ng-dirty.ng-invalid-email {
+	border: 1px solid rgb(255, 201, 14);
+  	outline: none;
+  	opacity: 1;
+  	
+}
